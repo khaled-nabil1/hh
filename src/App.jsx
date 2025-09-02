@@ -5,16 +5,15 @@ import About from "./sections/About";
 import Skills from "./sections/skills";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-const app = () => {
-  return <div className="container mx-auto max-w-7xl ">
+const App = () => {
+  return <div className="container mx-auto max-w-7xl">
     <Navbar/>
     <Hero/>
     <About />
     <Skills />
     <Contact />
-    < Footer />
+    <Footer />
   </div>;
-
 };
 
-export default app;
+export default App;
