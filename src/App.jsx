@@ -1,10 +1,10 @@
 import React from "react" ;
-import Navbar from "./sections/navbar";
+import Navbar from "./sections/Navbar";
 import Hero  from "./sections/hero";
 import About from "./sections/About";
 import Skills from "./sections/skills";
 import Contact from "./sections/Contact";
-import Footer from "./sections/footer";
+import Footer from "./sections/Footer";
 const app = () => {
   return <div className="container mx-auto max-w-7xl ">
     <Navbar/>
