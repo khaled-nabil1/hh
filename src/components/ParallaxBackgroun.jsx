@@ -14,14 +14,14 @@ const parallaxBackground = () => {
       {/*backgroundsky*/}
       <div className="absolute inset-0 w-full h-screen -z-50 " 
        style={{
-        backgroundImage: "url('hocine/sky.jpg')",
+        backgroundImage: "url('/sky.jpg')",
         backgroundPosition:"bottom",
         backgroundSize:"cover",
        }}
       />
       {/*montain layer 3*/}
       <motion.div className="absolute inset-0 -z-40" style={{
-        backgroundImage: "url('hocine/mountain-3.png')",
+        backgroundImage: "url('/mountain-3.png')",
         backgroundPosition:"bottom",
         backgroundSize:"cover",
         y: mountain3Y ,

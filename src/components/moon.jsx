@@ -11,7 +11,7 @@ import { useGLTF } from '@react-three/drei'
 import { animations } from 'motion/react';
 
 export function Moon(props) {
-  const { nodes, materials } = useGLTF('models/la_luna__viaje_virtual_guiado__3d___vr.glb')
+  const { nodes, materials } = useGLTF('/models/la_luna__viaje_virtual_guiado__3d___vr.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0.224, -0.185, 0.172]} rotation={[-1.722, -0.224, 0.007]} scale={0.433}>
